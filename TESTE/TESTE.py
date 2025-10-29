@@ -1,7 +1,7 @@
 import streamlit as aplicativo
 import pandas as pd
 
-aplicativo.sidebar.image("Logo.png")
+#aplicativo.sidebar.image("Logo.png")
 
 pg = aplicativo.navigation([
     aplicativo.Page("pages/inicio.py",title= "Página inicial"),
@@ -18,6 +18,7 @@ pg.run()
     
 
     
+
 
 
 
